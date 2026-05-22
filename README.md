@@ -29,7 +29,7 @@ The dataset consists of a year's worth of pizza sales transactions containing *4
 
 ## 🛠️ Technical Stack Used
 *   *Database Engine:* Microsoft SQL Server
-*   *Query Tool:* SQL Server Management Studio (SSMS) / Azure Data Studio
+*   *Query Tool:* SQL Server Management Studio (SSMS) 
 *   *SQL Concepts Applied:* Common Table Expressions (CTEs), Window Functions (DENSE_RANK, LAG), Aggregations, String Manipulation (STRING_SPLIT, CROSS APPLY), and Data Type Casting.
 
 ---
