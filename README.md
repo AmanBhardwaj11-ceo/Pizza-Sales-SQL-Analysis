@@ -51,10 +51,32 @@ The dataset consists of a year's worth of pizza sales transactions containing *4
     *   Recommendation: Supply chain managers can leverage these high-frequency counts to negotiate bulk-pricing contracts with raw material vendors, directly cutting food costs.
 
 ---
-
 ## 📂 Repository Structure
+
+The project directory is structured modularly to isolate data cleaning, core analysis, visual assets, and raw data files:
+
 ```text
-├── 01_Data_Cleaning.sql       # Initial validation, null handling, and data type integrity checks
-├── 02_Core_KPIs.sql            # Core business health queries (Revenue, AOV, Orders)
-├── 03_Advanced_Analytics.sql   # Complex analytical scripts (CTEs, Window Functions, String Splitting)
-└── README.md                   # Project documentation and summary
+├── 📁 Data_Cleaning&Transformation/
+│   ├── 📄 Cleaning_data.sql                # SQL scripts handling missing data, type casting, and validation
+│   └── 📄 creation&Transform_table.sql      # Schema definitions, primary/foreign keys, and staging setups
+│
+├── 📁 datasets/
+│   ├── 📊 pizza_sales.csv                   # Raw transnational dataset utilized for the project
+│                     
+│
+├── 📁 documents/
+│   ├── 🖼️ Category_analysis.png             # Visualizations displaying performance across pizza categories
+│   ├── 🖼️ Cumulative_analysis.png           # Revenue running totals and growth accumulation plots
+│   ├── 🖼️ Metrics_analysis.png              # Charts summarizing core KPIs (AOV, Total Sales, Order Volumes)
+│   ├── 🖼️ Slots_analysis.png                # Time-series plots showing peak ordering hours and days
+│   
+│
+├── 📁 scripts/
+│   ├── 📄 Advanced_Analysis.sql            # Complex queries involving advanced window functions and multi-level logic
+│   ├── 📄 Change-over-time_analysis.sql    # Time-series calculations tracking performance over days, weeks, and months
+│   ├── 📄 Data_segmentation analysis.sql   # Customer behavior breakdowns based on transaction volumes and group orders
+│   ├── 📄 Magnitude_analysis.sql           # Identifying high-volume revenue drivers versus micro-transactions
+│   ├── 📄 Measures_analysis.sql            # Core foundational aggregation scripts (Calculations for standard metrics)
+│   ├── 📄 Ranking_analysis.sql             # SQL scripts focusing on Top/Bottom N product performers
+│   
+└── 📄 README.md                            # Comprehensive project documentation
