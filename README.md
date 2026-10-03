@@ -1,7 +1,7 @@
 # 🍕 Pizza Sales Performance Analysis (SQL Server)
 
 ## 📌 Project Overview
-This project presents a comprehensive, data-driven analysis of a restaurant's pizza sales transactions using *SQL Server (T-SQL)*. The objective was to transform raw operational data into actionable business intelligence, focusing on core financial KPIs, operational efficiency (peak hours), menu optimization (product performance), and supply chain insights (ingredient analysis). 
+This project presents a comprehensive, data-driven analysis of a restaurant's pizza sales transactions using *SQL Server*. The objective was to transform raw operational data into actionable business intelligence, focusing on core financial KPIs, operational efficiency (peak hours), menu optimization (product performance), and supply chain insights (ingredient analysis). 
 
 By structuring the analysis from foundational metrics to advanced analytical queries, this project provides a clear blueprint for stakeholders to optimize staffing, manage inventory, and drive higher revenue.
 
